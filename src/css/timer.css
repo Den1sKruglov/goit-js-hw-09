@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap);
+
+.timer {
+    margin-top: 20px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.field {
+    min-width: 102px;
+    height: 100%;
+    background: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, .25);
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+.value, .label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 56px;
+    font-weight: 700
+}
+.label {
+    font-size: 16px;
+    
+}
+
